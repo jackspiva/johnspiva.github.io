@@ -1,0 +1,11 @@
+.job-info {
+    font-style: italic;
+}
+
+.job-location, .skill-type {
+    font-weight: bold;
+}
+
+h2 {
+    color: #0F74D9;
+}
