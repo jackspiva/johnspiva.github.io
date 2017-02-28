@@ -33,7 +33,8 @@ h6 {
 }
 hr.star-light,
 hr.star-primary,
-hr.star-primary-portfolio {
+hr.star-primary-portfolio,
+hr.star-light-project, {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -43,7 +44,8 @@ hr.star-primary-portfolio {
 }
 hr.star-light:after,
 hr.star-primary:after,
-hr.star-primary-portfolio:after {
+hr.star-primary-portfolio:after,
+hr.star-light-project:after {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -70,8 +72,15 @@ hr.star-primary-portfolio {
   border-color: #2C3E50;
 }
 hr.star-primary-portfolio:after {
-  background-color: #B8AA95;
+  background-color: #D5544F;
   color: #2C3E50;
+}
+hr.star-light-project {
+  border-color: white;
+}
+hr.star-light-project:after {
+  background-color: #22252C;
+  color: white;
 }
 
 .img-centered {
@@ -209,7 +218,7 @@ section.success {
 }
 
 #portfolio {
-  background-color: #B8AA95;
+  background-color: #D5544F;
 }
 
 #portfolio .portfolio-item {
@@ -471,6 +480,10 @@ fieldset[disabled] .btn-success.active {
   background: #22252C;
   color: white;
 }
+
+.project-info {
+  text-align: left;
+}
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
@@ -524,4 +537,8 @@ fieldset[disabled] .btn-success.active {
 #profpic {
   max-width: 30%;
   max-height: 30%;
+}
+
+#contact {
+  background-color: #CDB599;
 }
