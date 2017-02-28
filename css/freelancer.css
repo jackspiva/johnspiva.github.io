@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #CF6766;
+  color: #41B3F5;
   outline: none;
 }
 h1,
@@ -553,4 +553,13 @@ fieldset[disabled] .btn-success.active {
 
 .project {
   color: black;
+}
+
+.project-details {
+  background: #748CAB;
+  color: #2C3E50;
+}
+
+.panel-title {
+  color:#2C3E50;!important
 }
