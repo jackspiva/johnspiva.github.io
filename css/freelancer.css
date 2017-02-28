@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #9EB9B6;
+  color: #ECECEC;
   outline: none;
 }
 h1,
@@ -71,11 +71,11 @@ hr.star-primary:after {
   color: white;
 }
 hr.star-primary-portfolio {
-  border-color: #22252C;
+  border-color: black;
 }
 hr.star-primary-portfolio:after {
   background-color: #748CAB;
-  color: #22252C;
+  color: black;
 }
 hr.star-light-project {
   border-color: white;
@@ -557,13 +557,17 @@ fieldset[disabled] .btn-success.active {
 
 .project-details {
   background: #748CAB;
-  color: #2C3E50;
+  color: black;
 }
 
 .panel-title {
-  color:#2C3E50;!important
+  color: black;!important
 }
 
 #email {
   color: #2C3E50;
+}
+
+#projects {
+  color: black;
 }
