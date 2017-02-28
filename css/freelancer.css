@@ -71,11 +71,11 @@ hr.star-primary:after {
   color: white;
 }
 hr.star-primary-portfolio {
-  border-color: #2C3E50;
+  border-color: #22252C;
 }
 hr.star-primary-portfolio:after {
   background-color: #748CAB;
-  color: #2C3E50;
+  color: #22252C;
 }
 hr.star-light-project {
   border-color: white;
@@ -85,11 +85,11 @@ hr.star-light-project:after {
   color: white;
 }
 hr.star-contact {
-  border-color: #2C3E50;
+  border-color: #22252C;
 }
 hr.star-contact:after {
   background-color: #CDB599;
-  color: #2C3E50;
+  color: #22252C;
 }
 .img-centered {
   margin: 0 auto;
@@ -562,4 +562,8 @@ fieldset[disabled] .btn-success.active {
 
 .panel-title {
   color:#2C3E50;!important
+}
+
+#email {
+  color: #2C3E50;
 }
