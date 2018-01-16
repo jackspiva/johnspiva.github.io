@@ -1,242 +1,36 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>John Spiva</title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css"/>
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	</head>
 	<body>
-
-		<!-- Sidebar -->
-		<section id="sidebar">
-			<div class="inner">
-				<nav>
-					<ul>
-						<li>
-							<a href="#intro">Welcome</a>
-						</li>
-						<li>
-							<a href="#one">About</a>
-						</li>
-						<li>
-							<a href="#two">Projects</a>
-						</li>
-						<li>
-							<a href="#three">Contact</a>
-						</li>
-					</ul>
-				</nav>
+		<div class="header-grid">
+			<div class="name">
+				<h1>John Spiva</h1>
 			</div>
-		</section>
-
-		<!-- Wrapper -->
-		<div id="wrapper">
-
-			<!-- Intro -->
-			<section id="intro" class="wrapper style1 fullscreen fade-up">
-				<div class="inner">
-					<h1>John Spiva</h1>
-					<p>My personal website and portfolio.</p>
-					<ul class="actions">
-						<li>
-							<a href="#one" class="button scrolly">Learn more</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-
-			<!-- One -->
-			<section id="one" class="wrapper style2 spotlights">
-				<section>
-					<a href="#" class="image"><img src="images/pic01.jpg" style="width: 113%;" alt="" data-position="center center"/></a>
-					<div class="content">
-						<div class="inner">
-							<h2>About</h2>
-							<p>I'm senior at Tufts University studying Computer Science in the engineering school. Primary experience is in C, C++, MATLAB, Rails and Django.</p>
-							<p>My primary hobbies include ultimate frisbee, skiing, hiking, video games, design, reading and many others.</p>
-							<ul class="actions">
-								<li>
-									<a href="https://drive.google.com/open?id=0BxWBEhWw1FnrRGU0UWp6QlExSmc" class="button">See my resume</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</section>
-
-			<!-- Two -->
-			<section id="two" class="wrapper style3 fade-up">
-				<div class="inner">
-					<h2>My Projects</h2>
-					<p></p>
-					<div class="features">
-						<section>
-							<span class="icon major fa-clone"></span>
-							<h3>Worksheet Interlace - 2017</h3>
-							<p>
-								<a href="https://worksheet-project.herokuapp.com">worksheet-project.herokuapp.com</a>
-							</p>
-							<p>
-								This is a the web application portion of my senior capstone project that I am doing with two classmates. The web application displays and visualizes data gathered from classroom worksheets completed by students using image processing.
-							</p>
-						</section>
-						<section>
-							<span class="icon major fa-area-chart"></span>
-							<h3>Julia Sets - 2016</h3>
-							<p>
-								<a href="julia-sets.html">link to project paper</a>
-							</p>
-							<p>
-								This is a program I built with a partner for a class called “Numerical Analysis.” The program is written in MATLAB and can plot and visualize Julia sets. It can animate the formation of a Julia set as well as the development of a changing one.
-
-							</p>
-						</section>
-						<section>
-							<span class="icon major fa-plane"></span>
-							<h3>Trip Explorer - 2016</h3>
-							<p>I built this application with three peers using React Native and D3.js at a hackathon. The application uses the Trip Advisor API to suggest destinations based on what a user wants to do. The suggestions are displayed u sing a force-directed graph
-								built with D3.js.</p>
-						</section>
-						<section>
-							<span class="icon major fa-music"></span>
-							<h3>Bostunes - 2015</h3>
-							<p>This is a web application I built with three other students using Node.js, Express, and MongoDB. The application provides users with concert recommendations based on the songs on their “Starred” playlist on Spotify. The application allows users to
-								add concerts to their Google calendar and get directions to concert venues with Google maps.</p>
-						</section>
-						<section>
-							<span class="icon major fa-book"></span>
-							<h3>Counting Murakami - 2015</h3>
-							<p>
-								<a href="https://counting-murakami.herokuapp.com">counting-murakami.herokuapp.com</a>
-							</p>
-							<p>
-								This is a website I created using Node.js and Express as a final project for a Japanese literature class on Haruki Murakami. I used Ruby regular expressions to gather word frequency data from text files of various Murakami novels and then created
-								multiple visualizations based on that data using JavaScript graphing libraries.
-							</p>
-						</section>
-						<section>
-							<span class="icon major fa-cogs"></span>
-							<h3>The Universal Machine - 2014</h3>
-							<p>This is an emulator for a simple computer that I programmed at the machine architect level with a partner for the class “Machine Structure and Assembly Language Programming.” The emulator is built using C and emulates a computer called the
-								“Universal Machine” that has fourteen instructions and is Turing-complete.</p>
-						</section>
-					</div>
-					<ul class="actions">
-						<li>
-							<a href="https://github.com/johnspiva" class="button">Browse my github</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-
-			<!-- Three -->
-			<section id="three" class="wrapper style1 fade-up">
-				<div class="inner">
-					<h2>Contact</h2>
-					<p></p>
-					<div class="split style1">
-						<section>
-							<form method="post" action="https://formspree.io/johnspiva@gmail.com">
-								<div class="field half first">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name"/>
-								</div>
-								<div class="field half">
-									<label for="email">Email</label>
-									<input type="text" name="email" id="email"/>
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="5"></textarea>
-								</div>
-								<ul class="actions">
-									<li>
-										<button type="submit" class="button submit">Send Message</button>
-									</li>
-								</ul>
-							</form>
-						</section>
-						<section>
-							<ul class="contact">
-								<li>
-									<h3>Address</h3>
-									<span>40 Ossipee Road<br/>
-										Somerville, MA 02144<br/>
-										USA</span>
-								</li>
-								<li>
-									<h3>Email</h3>
-									<a href="malto:johnspiva@gmail.com">johnspiva@gmail.com</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									<span>(615) 521 - 5969</span>
-								</li>
-								<li>
-									<h3>Social</h3>
-									<ul class="icons">
-										<li>
-											<a href="https://plus.google.com/u/0/+jackspiva" class="fa-google-plus">
-												<span class="label">Twitter</span>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.facebook.com/jackspiva" class="fa-facebook">
-												<span class="label">Facebook</span>
-											</a>
-										</li>
-										<li>
-											<a href="https://github.com/johnspiva" class="fa-github">
-												<span class="label">GitHub</span>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.instagram.com/jackspiva/?hl=en" class="fa-instagram">
-												<span class="label">Instagram</span>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/johnspiva/" class="fa-linkedin">
-												<span class="label">LinkedIn</span>
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</section>
-					</div>
-				</div>
-			</section>
-
-		</div>
-
-		<!-- Footer -->
-		<footer id="footer" class="wrapper style1-alt">
-			<div class="inner">
-				<ul class="menu">
-					<li>Design:
-						<a href="http://html5up.net">HTML5 UP</a>
-					</li>
+			<div class="site-locations">
+				<ul class="header-list">
+					<li>Projects</li>
+					<li>Work</li>
+					<li>Contact</li>
 				</ul>
 			</div>
-		</footer>
+		</div>
+		<!-- Wrapper -->
+		<div class="container">
+			<div class="project-item grow">Worksheet Interlace</div>
+			<div class="project-item grow">Julia Sets</div>
+			<div class="project-item grow">Trip Explorer</div>
+			<div class="project-item grow">Bostunes</div>
+			<div class="project-item grow">Counting Murakami</div>
+			<div class="project-item grow">The Universal Machine</div>
+		</div>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
 
 	</body>
