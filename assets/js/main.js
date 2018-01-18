@@ -1,4 +1,6 @@
 $(".project-item").click(function() {
-    window.location = $(this).find("a").attr("href"); 
+    if($(this).find("a")) {
+        window.location = $(this).find("a").attr("href"); 
+    }
     return false;
   });
